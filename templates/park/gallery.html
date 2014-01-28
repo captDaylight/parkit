@@ -1,6 +1,19 @@
 {% extends 'base.html' %}
-{% block content %}
-	
-	<div>in the gallery</div>
+
+{% block content %}	
+		<div class="container">
+
+			<div class="main">
+				<ul id="cbp-bislideshow" class="cbp-bislideshow">
+					<li><img src="http://www.nikoprincen.com/img/animation.gif" alt="The Clouds" /><p class="credits"> The Clouds, courtesy of <a href="">Niko Princen</a> and <a href="http://parkeddomaingallery.com">parkeddomaingallery.com</a> </p></li>
+					<li><img src="http://constantdullaart.com/JenniferInParadise.jpg" alt="Jennifer in Paradise" /><p class="credits"> Jennifer in Paradise, courtesy of <a href="">Constant Dullaart</a> and <a href="http://parkeddomaingallery.com">parkeddomaingallery.com</a> </p></li>
+				</ul>
+				<script type="foo/bar" id='usageList'>
+					<% _.each(works, function(work,%>
+						<li><img src=<%work.imageSrc%> alt=<%work.title%> /><p class="credits"> <%work.title%>, courtesy of <a href=""><%work.artist%></a> and <a href="http://parkeddomaingallery.com">parkeddomaingallery.com</a> </p></li>
+					<%});%>
+				</script>
+			</div>
+		</div>
 	
 {% endblock %}
