@@ -11,15 +11,29 @@ body{
 	font-size:25px;
 	text-align: center;
 	padding: 50px;
+	img{
+		margin: 0px auto;
+		display: block;
+		height: 400px;
+		padding-bottom:50px;
+	}
 }
 .domain-list{
-	background-color: #eee;
-	height:100%;
-	width:100%;
+
 	padding: 50px;
+	border-top: 1px solid #eee;
 	.domain{
 		font-size: 50px;
+		text-align: center;
 		padding: 20px;
 		background-color: white;
+		text-transform: uppercase;
+		a{
+			color: #333;
+			&:hover{
+				color:#000;
+			}			
+		}
+
 	}
 }
