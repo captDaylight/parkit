@@ -45,11 +45,9 @@ body {
       text-align: center;
       padding: 20px;
       text-transform: uppercase;
-      color: black; }
+      color: #333; }
       .domain-list .domains .domain a {
         color: black; }
-        .domain-list .domains .domain a:hover {
-          color: #eee; }
 
 p.credits {
   position: fixed;
