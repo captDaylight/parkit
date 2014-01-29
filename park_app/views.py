@@ -19,13 +19,49 @@ def gallery(request):
 		'title': 		'The Clouds',
 		'artist': 		'Niko Princen',
 		'artistURL': 	'http://www.nikoprincen.com/',
-		'workURL': 		'http://www.nikoprincen.com/img/animation.gif'
+		'workURL': 		'animation.gif'
 	},
 	{
-		'title': 		'Jennifer in Paradise',
-		'artist': 		'Constant Dullaart',
-		'artistURL':	'http://www.constantdullaart.com',
-		'workURL': 		'http://constantdullaart.com/JenniferInParadise.jpg'
+		'title': 		'Parked Domain Girl RIP',
+		'artist': 		'Emilie Gervais',
+		'artistURL': 	'http://www.emiliegervais.com/',
+		'workURL': 		'parkeddomaingirlrip.gif'
+	},
+	{
+		'title': 		'Glyph Garland',
+		'artist': 		'Brenna Murphy',
+		'artistURL': 	'http://bmruernpnhay.com/',
+		'workURL': 		'glyph_garland.png'
+	},
+	{
+		'title': 		'Parked Domain Girl RIP',
+		'artist': 		'Emilie Gervais',
+		'artistURL': 	'http://www.emiliegervais.com/',
+		'workURL': 		'parkeddomaingirlrip.gif'
+	},
+	{
+		'title': 		'Recyclism',
+		'artist': 		'Benjamin Gaulon',
+		'artistURL': 	'http://www.recyclism.com/',
+		'workURL': 		'recyclism.jpg'
+	},
+	{
+		'title': 		'No shake',
+		'artist': 		'Justin Blinder',
+		'artistURL': 	'http://www.justinblinder.com/',
+		'workURL': 		'no_shake.gif'
+	},
+	{
+		'title': 		'Parked Domain Gallery',
+		'artist': 		'Olof, Paul, Thiago',
+		'artistURL': 	'http://www.arthackday.net/',
+		'workURL': 		'parkeddomaingallery_art.png'
+	},
+	{
+		'title': 		'Bought a new bin',
+		'artist': 		'Bernhard Garnicnig',
+		'artistURL':	'http://www.bernhardgustavanton.com/',
+		'workURL': 		'garnicnig-bought-a-new-bin.jpg'
 	}]
 
 	return render_to_response('park/gallery.html', {'works': works}, context_instance=RequestContext(request))
