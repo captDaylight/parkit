@@ -33,11 +33,53 @@ def gallery(request):
 		'artistURL': 	'http://bmruernpnhay.com/',
 		'workURL': 		'glyph_garland.png'
 	},
+		{
+		'title': 		'Lunar Storm',
+		'artist': 		'Rosa Menkman',
+		'artistURL': 	'http://rosa-menkman.blogspot.de/',
+		'workURL': 		'rosa2.gif'
+	},
 	{
-		'title': 		'Parked Domain Girl RIP',
-		'artist': 		'Emilie Gervais',
-		'artistURL': 	'http://www.emiliegervais.com/',
-		'workURL': 		'parkeddomaingirlrip.gif'
+		'title': 		'Lettrist',
+		'artist': 		'Rosemary Lee',
+		'artistURL': 	'http://rosemary-lee.com/',
+		'workURL': 		'Lettrist.jpg'
+	},
+	{
+		'title': 		'Drillmoves',
+		'artist': 		'Jonah Brucker Cohen',
+		'artistURL': 	'http://www.coin-operated.com/',
+		'workURL': 		'drillmoves.gif'
+	},
+	{
+		'title': 		'All Horizons',
+		'artist': 		'Kawandeep Wirdee',
+		'artistURL': 	'http://all-horizons.tumblr.com/',
+		'workURL': 		'allhorizons.gif'
+	},
+	{
+		'title': 		'Hello Bitcoin',
+		'artist': 		'Geraldine Juarez',
+		'artistURL': 	'http://www.simple-mechanisms.com/',
+		'workURL': 		'hellobitcoin.gif'
+	},
+	{
+		'title': 		'Brute Force Method',
+		'artist': 		'Andreas Fischer',
+		'artistURL': 	'http://anf.nu/',
+		'workURL': 		'fischer.jpg'
+	},
+	{
+		'title': 		'One billion steps',
+		'artist': 		'Rosa Menkman',
+		'artistURL': 	'http://rosa-menkman.blogspot.de/',
+		'workURL': 		'rosa.gif'
+	},
+	{
+		'title': 		'Selfie Obliteration',
+		'artist': 		'Kawandeep Wirdee',
+		'artistURL': 	'http://selfie-obliteration.tumblr.com/',
+		'workURL': 		'selfieobliteration.gif'
 	},
 	{
 		'title': 		'Recyclism',
