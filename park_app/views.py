@@ -14,7 +14,7 @@ def index(request):
 	return render_to_response('park/index.html', context_instance=RequestContext(request))
 
 def gallery(request):
-	works = [
+	works = [	
 	{
 		'title': 		'The Clouds',
 		'artist': 		'Niko Princen',
