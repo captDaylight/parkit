@@ -7,9 +7,9 @@
 
 					{% for w in works %}
 					<li>
-						<img src="{{w.workURL}}" alt="{{w.title}}" />
+						<img src="{{STATIC_URL}}imgs/{{w.workURL}}" alt="{{w.title}}" />
 						<p class="credits">
-							{{w.title}}, courtesy of <a href="{{w.artistURL}}">{{w.artist}}</a> and <a href="http://parkeddomaingallery.com">parkeddomaingallery.com</a> 
+							{{w.title}}, courtesy of <a href="{{w.artistURL}}">{{w.artist}}</a> and <a href="/howto">parkeddomaingallery.com</a> 
 						</p>
 					</li>
 					{% endfor %}

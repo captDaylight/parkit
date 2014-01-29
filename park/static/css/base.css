@@ -13,21 +13,53 @@ body {
     margin: 0px auto;
     display: block;
     height: 400px;
-    padding-bottom: 50px; }
+    padding: 50px 0px; }
 
 .domain-list {
   padding: 50px;
-  border-top: 1px solid #eee; }
-  .domain-list .domain {
-    font-size: 50px;
-    text-align: center;
-    padding: 20px;
-    background-color: white;
-    text-transform: uppercase; }
-    .domain-list .domain a {
-      color: #333; }
-      .domain-list .domain a:hover {
-        color: #000; }
+  border-top: 1px solid #eee;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed; }
+  .domain-list .explanation {
+    color: black;
+    width: 800px;
+    margin: 100px auto;
+    font-size: 25px;
+    padding: 50px;
+    background-color: white; }
+  .domain-list .domains {
+    color: black;
+    width: 800px;
+    margin: 100px auto;
+    font-size: 25px;
+    padding: 50px;
+    background-color: white; }
+    .domain-list .domains .header {
+      color: black; }
+    .domain-list .domains .domain {
+      font-size: 50px;
+      text-align: center;
+      padding: 20px;
+      text-transform: uppercase;
+      color: black; }
+      .domain-list .domains .domain a {
+        color: black; }
+        .domain-list .domains .domain a:hover {
+          color: #eee; }
+
+p.credits {
+  position: fixed;
+  bottom: 0;
+  right: 20px;
+  background-color: white;
+  padding: 10px 15px;
+  color: #555; }
+  p.credits a {
+    color: #000; }
 
 /* General Demo Style */
 @font-face {
@@ -69,11 +101,6 @@ p {
 a {
   color: #000;
   text-decoration: none; }
-
-a:hover {
-  color: white;
-  background-color: #000;
-  padding: 5px; }
 
 .main,
 .container > header {
