@@ -14,6 +14,20 @@ def index(request):
 	return render_to_response('park/index.html', context_instance=RequestContext(request))
 
 def gallery(request):
-    return render_to_response('park/gallery.html', context_instance=RequestContext(request))
+	works = [
+	{
+		'title': 		'The Clouds',
+		'artist': 		'Niko Princen',
+		'artistURL': 	'http://www.nikoprincen.com/',
+		'workURL': 		'http://www.nikoprincen.com/img/animation.gif'
+	},
+	{
+		'title': 		'Jennifer in Paradise',
+		'artist': 		'Constant Dullaart',
+		'artistURL':	'http://www.constantdullaart.com',
+		'workURL': 		'http://constantdullaart.com/JenniferInParadise.jpg'
+	}]
+
+	return render_to_response('park/gallery.html', {'works': works}, context_instance=RequestContext(request))
 
 
