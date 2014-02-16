@@ -95,7 +95,7 @@ def gallery(request):
 	},
 	{
 		'title': 		'Parked Domain Gallery',
-		'artist': 		'Olof, Paul, Thiago',
+		'artist': 		'Olof & Paul',
 		'artistURL': 	'http://www.arthackday.net/',
 		'workURL': 		'parkeddomaingallery_art.png'
 	},
